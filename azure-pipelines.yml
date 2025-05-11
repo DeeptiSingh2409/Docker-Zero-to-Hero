@@ -4,6 +4,9 @@ trigger:
 resources:
   - repo: self
 
+pool:
+  name: default 
+
 variables:
   dockerRegistryServiceConnection: 'dd491421-bf4b-4eac-a7ae-f1771a4620c0'
   imageRepository: 'deeptisinghdockerzerotohero'
